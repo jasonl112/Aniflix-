@@ -1,0 +1,43 @@
+.container{
+  height: 60px;
+  display: flex;
+  justify-content:center;
+  gap: 2.5rem;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: black;
+}
+
+.search{
+  width: 30%;
+  border: .5px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 10px;
+}
+
+.search input{
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  width: 100%;
+}
+
+.searchimg{
+  height: 16px;
+}
+
+.links{
+  width: 50%;
+}
+
+.links li{
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 15px;
+}
