@@ -1,0 +1,46 @@
+.container{
+  background-color: #212c32;
+}
+
+.grey{
+  color: grey;
+}
+
+.animeInfo{
+  display: flex;
+  gap: 10px;
+  max-height: 100px;
+  padding: .5rem ;
+}
+
+.image{
+  width: 50px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.title{
+  font-size: 1rem;
+  color: white;
+  font-weight: normal;
+}
+
+.detail{
+  display: flex;
+  align-items: center;
+}
+
+.detail p{
+  font-size: .8rem;
+  color: white;
+  font-weight: normal;
+  max-width: 80%;
+}
+
+.rating{
+  font-size: 1rem;
+  background-color: #2387bd;
+  padding: .25rem;
+  border-radius: 50%;
+  color: white;
+}

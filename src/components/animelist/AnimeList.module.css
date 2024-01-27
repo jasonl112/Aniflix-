@@ -1,0 +1,57 @@
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 1rem;
+  gap: 20px;
+}
+
+.animeCard{
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+
+.animeImgContainer{
+  position: relative;
+  background-image: url("https://cdn.myanimelist.net/images/anime/1244/138851.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  min-width: 200px;
+  min-height: 300px;
+  width: 40%;
+  height: 50%;
+}
+
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+}
+
+.overlay img{
+  position: absolute;
+  width: 40%;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.animeTitle{
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.animeCard:hover .overlay {
+  display: block;
+}
+
+.animeCard:hover {
+  color: #2387bd;
+}
