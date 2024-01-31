@@ -12,12 +12,24 @@ const Content = () => {
       <div className={styles.title}>
         <h1>New & Hot</h1>
       </div>
-        <div className={styles.wrapper}>
-          <AnimeList/>
-        </div>
-        <div className={styles.sideBar}>
-            <AnimeSideBar/>
-        </div>
+      <div className={styles.wrapper}>
+        <AnimeList/>
+      </div>
+      <div className={styles.sideBar}>
+          <AnimeSideBar/>
+      </div>
+      <div className={styles.title}>
+        <h1>New & Hot</h1>
+      </div>
+      <div className={styles.sideBar}>
+        <AnimeSideBar/>
+      </div>
+      <div className={styles.title}>
+        <h1>New & Hot</h1>
+      </div>
+      <div className={styles.sideBar}>
+        <AnimeSideBar/>
+      </div>
     </div>
   )
 }

@@ -5,6 +5,7 @@
   border-radius: 10px;
   padding: 1rem;
   gap: 20px;
+  height: fit-content;
 }
 
 .animeCard{
@@ -19,9 +20,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
-  min-width: 200px;
-  min-height: 300px;
-  width: 40%;
+  min-width: 180px;
+  min-height: 240px;
+  width: 25%;
   height: 50%;
 }
 
